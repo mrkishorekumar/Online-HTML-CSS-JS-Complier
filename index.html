@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZT2S9S4VL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7ZT2S9S4VL');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLaps Online Compiler - HTML, CSS & JS</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="https://codelaps.com/wp-content/uploads/2021/08/CodeLaps-Logo.png" type="image/gif" sizes="16x16">
+    <meta name="description" content="Online HTML, CSS and JavaScript editor with instant preview. The HTML-CSS-JS trio are the parts of all websites that users directly interact with.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="M R KISHORE KUMAR">
+</head>
+
+<body>
+    <div class="change-layout">Change Layout</div>
+    <div class="container view2">
+        <div class="coder view2">
+            <div class="code-editor htmlCoder">
+                <div class="code-type">HTML</div>
+                <div class="code html" id="html"></div>
+            </div>
+            <div class="code-editor cssCoder">
+                <div class="code-type">CSS</div>
+                <div class="code css" id="css"></div>
+            </div>
+            <div class="code-editor jsCoder">
+                <div class="code-type">JS</div>
+                <div class="code js" id="javascript"></div>
+            </div>
+        </div>
+        <div class="output">
+            <iframe src="" class="virtual-iframe" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
